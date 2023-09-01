@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- favicon -->
+    <title>SOCIAL ILUSION</title>
+    <link rel="icon" type="image/png" href="IMG/favicon.png">
+    
+</head>
+<body>
+    <!-- Header -->
+   <header>
+    <!-- NAV -->
+    <div class="nav container">
+        <!-- LOGO -->
+        <a href="#" class="logo">SOCIAL ILUSION</a>
+        <!-- Wózek -->
+        <i class='bx bx-shopping-bag' id="cart-icon" data-quantity="0"></i>
+                <!--Koszyk-->
+                <div class="cart">
+                    <h2 class="cart-title">Twój koszyk</h2>
+                    <div class="cart-content">
+                 
+                </div>
+                    <!--CENA-->
+                    <div class="total">
+                    <div class="total-title">Całkowity Koszt</div>
+                    <div class="total-price">0zł</div>
+                    </div>
+                    <!--Przycisk zapłać-->
+                    <button type="button" class="btn-buy">Zapłać teraz</button>
+                    <!--Przycisk zamknięcia-->
+                    <i class='bx bx-x' id="close-cart"></i>
+        </div>  
+   </header>
+<!--Link do JS-->
+<script type="text/javascript" src="js/main.js"></script>
+<!--Produkty-->
+   <section class="shop container">
+    <h2 class="section-title">Produkty</h2>
+    <!--Zawartość-->
+    <div class="shop-content">
+    <!--BOX1-->
+    <div class="product-box">
+        <!--Product -->
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinzOkgWOtjk2y0aimsdc1Sh6n2io87z2DxF74Oe1GLn-4t09Dw8fZJ59CDaWBmdSlUVBupSxv9kUk48pNtig8dLtu3-FnstsSB7j8CvFco_hRpIpz7U9wyDXkYhiO_A-DXTY225vP-8fOBV0jj2_WagUCAJhcSJ8ae5n98G42NBiGJu7NE0MtLMr2_14Ox/s320/product1.jpg"
+
+         alt="" class="product-img">
+         <h2 class="product-title">Koszylka</h2>
+         <span class="price">50 zł</span>
+         <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+
+        <!--BOX2-->
+    <div class="product-box">
+        <!--Product -->
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQpCa82T3rvF9Hl5mjNTJWgwNLRy_k_S_XPGBqTnm_2QL0E9JfA80Tzj0MTdf9bDrxzuCnD973FviarKNyww2lvzaULgff3Rz2IMTmq1O2FRgobz82k3frnU0iNCY6T423XyumGvRjJOUu3v79SYqCnPl9ghTX_NsauoQQ0u6X7YrQJckFRRln2uiWCKiG/s320/product2.jpg"
+
+         alt="" class="product-img">
+         <h2 class="product-title">Słuchawki</h2>
+         <span class="price">30 zł</span>
+         <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+
+        <!--BOX3-->
+    <div class="product-box">
+        <!--Product -->
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFO3wRKeNNsi5BOcABog0B-1nFO-zyld77FWeeZ9UAxxZkCPrrrZSKh7eM8w8NjqZQSi9ymo1UEgsgmo3CkSc7RTa7bgo5YhLZ_t3cP4Xg6M1LbHCAayNZo4AGac6l2nBCyiVY7DNbFKC1b_E24_eIl7IlqkypojklJzToXv_RsIdGkEdbqHXG1OnTqUea/s320/product3.jpg"
+
+         alt="" class="product-img">
+         <h2 class="product-title">Kurtka</h2>
+         <span class="price">150 zł</span>
+         <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+
+        <!--BOX4-->
+    <div class="product-box">
+        <!--Product -->
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4W-MEYQSC2SdEZmXAzLYAouCjt6wJ8OvY_p83qWzAq1QMIxZCQTA5OFthWj12LZhh-cNHmwzmusOGlFASvOahC1dQyY3tP7MacxowOcrOP2A6u4LXnVy_o6mmVmaltIERQnCccXKE8DZpLKQqqkXv4LUEDOADHuNNXPR4Y0wGJ3LLiF9uO6mkhmgtUCcM/s320/product4.jpg"
+
+         alt="" class="product-img">
+         <h2 class="product-title">Bidon</h2>
+         <span class="price">250 zł</span>
+         <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+
+        <!--BOX5-->
+    <div class="product-box">
+        <!--Product -->
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilDDtePwSwvzGH0x3rsRoCKXlnvlw36kSVibc05SeXkpQp799dmxxFDCXoxA2CHTF0gnkWgE310cBsNRBeLasu0fWpjajutIZ3djFSbnYdjp1k51lffW03Xyp7QFiTJBiFGvJ2gkjErQ1P2iWdubay1fw7SUx_JXQcr0ftKasvd2P5BAxsGswqe4o0rMuC/s320/product5.jpg"
+
+         alt="" class="product-img">
+         <h2 class="product-title">Okulary</h2>
+         <span class="price">40 zł</span>
+         <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+
+        <!--BOX6-->
+    <div class="product-box">
+        <!--Product -->
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDlWJ21ipNLa67pr2CVCqpkSgeeZjC7LNjUdFi4I-7PD4HwmmlHsAsIgggc4DUN97ZmHRZz3HUPwhub2huO6xa5QOntqKTa8zhDZVnK1Go0HX_ybE7k3h1Uc08fXNpHUgmr_0gIfmorIFCJd4TbdkgAAujIDL5RE0RLn462yIGb2JPNFndmDd0IJpsgFuB/s320/product6.jpg"
+
+         alt="" class="product-img">
+         <h2 class="product-title">Czapka</h2>
+         <span class="price">30 zł</span>
+         <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+
+                <!--BOX7-->
+    <div class="product-box">
+        <!--Product -->
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBCSG3NU88TAU_wZN_iROXp6OXjDDpT0eLlAoPB0YUZiXAwokRUEBtuNPpQT6aJ5TzIRbwr_SNSf-lEyBw0Mm8GO7zanSRSf6N67WRG5NPSJN9J-R-UfuARLS1PUjJ3uH1tDrbsArvugPWMxE0LbGPo16PWwbzAHQUYF0DTjM8kC6nN03VfkHcBzRQyXS7/s320/product8.jpg"
+
+         alt="" class="product-img">
+         <h2 class="product-title">Buty</h2>
+         <span class="price">100 zł</span>
+         <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+
+                <!--BOX8-->
+    <div class="product-box">
+        <!--Product -->
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg89IDsnt3NBv7tACfFITrqpRoz47TYWneQUNQiVYSMavFDbNoYG1icUR7zRsbodtidt8FpX4LMk52gnE3NTKbUmgArmyDlfM2XMmnQ9kF1YcIQRag1iH74i_sy_s_jctXvc7EYGuqpwtnQw_4DomdJLv0YIUZ4-BZlTYDv4W-DaXxnRMa8tUKCrsHpbuPR/s320/product7.jpg"
+
+         alt="" class="product-img">
+         <h2 class="product-title">Plecak</h2>
+         <span class="price">120 zł</span>
+         <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+    </div>
+</section>
+    <footer>
+        <section>    
+            <div id="containerFooter">
+                
+                <div id="webFooter">
+                    <h3> online store </h3>
+                    <p> men clothing </p>
+                    <p> women clothing </p>
+                    <p> men accessories </p>
+                    <p> women accessories </p>
+                </div>
+                <div id="webFooter">
+                    <h3> helpful link </h3>
+                    <p> home </p>
+                    <p> about </p>
+                    <p> contact </p>
+                </div>
+                <div id="webFooter">
+                    <h3> partners </h3>
+                    <p> zara </p>
+                    <p> pantaloons </p>
+                    <p> levis </p>
+                    <p> ucb </p>
+                    <p> + many more </p>
+                </div>
+                <div id="webFooter">
+                    <h3> address </h3>
+                    <p> building 101 </p>
+                    <p> central avenue </p>
+                    <p> la - 902722 </p>
+                    <p> united states </p>
+                </div>
+            </div>
+            <div id="credit"><a href="https://linkedin.com/in/priyanka-sharma-b79401142"> © Priyanka Sharma </a> &nbsp&nbsp&nbsp | &nbsp&nbsp&nbsp <a href="https://www.edyoda.com/" target="_blank"> EDYODA </a></div>
+        </section>
+
+    </footer>
+</body>
+</html>
